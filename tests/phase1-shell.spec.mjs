@@ -44,7 +44,7 @@ try {
     await page.goto(new URL(check.path, baseUrl).toString(), { waitUntil: "networkidle" });
 
     await page.getByText("Recode.Remix.Design").first().waitFor({ state: "visible" });
-    await page.getByText("ComputingEducation 2026").waitFor({ state: "visible" });
+    await page.getByText("Computingeducation © 2026").waitFor({ state: "visible" });
     await page.getByText(check.text).first().waitFor({ state: "visible" });
 
     const href = await page.getByRole("link", { name: "Impressum" }).getAttribute("href");

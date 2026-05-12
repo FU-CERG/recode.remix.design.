@@ -15,7 +15,7 @@ if (!existsSync(indexPath)) {
   const html = await readFile(indexPath, "utf8");
   for (const expected of [
     "Recode.Remix.Design",
-    "ComputingEducation 2026",
+    "Computingeducation © 2026",
     "https://computingeducation.de/impressum/",
     "Alle Arbeiten",
     "/exponate/schotter/",
