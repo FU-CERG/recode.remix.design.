@@ -27,25 +27,25 @@
 
 ### Exhibit Pages
 
-- [ ] **EXH-01**: Start page shows a browseable exhibit index with all 17 exhibits.
-- [ ] **EXH-02**: User can open a dedicated local page for Schotter.
-- [ ] **EXH-03**: User can open a dedicated local page for Boxes.
-- [ ] **EXH-04**: User can open a dedicated local page for 500 Linien.
-- [ ] **EXH-05**: User can open a dedicated local page for Quadrate.
-- [ ] **EXH-06**: User can open a dedicated local page for Binary Rhythm.
-- [ ] **EXH-07**: User can open a dedicated local page for Grid Based Systems.
-- [ ] **EXH-08**: User can open a dedicated local page for Inequality.
-- [ ] **EXH-09**: User can open a dedicated local page for Permutationen.
-- [ ] **EXH-10**: User can open a dedicated local page for Labyrinth.
-- [ ] **EXH-11**: User can open a dedicated local page for Random Windows.
-- [ ] **EXH-12**: User can open a dedicated local page for n-Ecken.
-- [ ] **EXH-13**: User can open a dedicated local page for Kraftlinien.
-- [ ] **EXH-14**: User can open a dedicated local page for Komputerstrukturen.
-- [ ] **EXH-15**: User can open a dedicated local page for Farbzentren.
-- [ ] **EXH-16**: User can open a dedicated local page for Punkt.Linie.Flaeche.
-- [ ] **EXH-17**: User can open a dedicated local page for Fraktale.
-- [ ] **EXH-18**: User can open a dedicated local page for Sinus Addition.
-- [ ] **EXH-19**: Exhibit pages provide navigation back to the overview and between neighboring exhibits.
+- [x] **EXH-01**: Start page shows a browseable exhibit index with all 17 exhibits.
+- [x] **EXH-02**: User can open a dedicated local page for Schotter.
+- [x] **EXH-03**: User can open a dedicated local page for Boxes.
+- [x] **EXH-04**: User can open a dedicated local page for 500 Linien.
+- [x] **EXH-05**: User can open a dedicated local page for Quadrate.
+- [x] **EXH-06**: User can open a dedicated local page for Binary Rhythm.
+- [x] **EXH-07**: User can open a dedicated local page for Grid Based Systems.
+- [x] **EXH-08**: User can open a dedicated local page for Inequality.
+- [x] **EXH-09**: User can open a dedicated local page for Permutationen.
+- [x] **EXH-10**: User can open a dedicated local page for Labyrinth.
+- [x] **EXH-11**: User can open a dedicated local page for Random Windows.
+- [x] **EXH-12**: User can open a dedicated local page for n-Ecken.
+- [x] **EXH-13**: User can open a dedicated local page for Kraftlinien.
+- [x] **EXH-14**: User can open a dedicated local page for Komputerstrukturen.
+- [x] **EXH-15**: User can open a dedicated local page for Farbzentren.
+- [x] **EXH-16**: User can open a dedicated local page for Punkt.Linie.Flaeche.
+- [x] **EXH-17**: User can open a dedicated local page for Fraktale.
+- [x] **EXH-18**: User can open a dedicated local page for Sinus Addition.
+- [x] **EXH-19**: Exhibit pages provide navigation back to the overview and between neighboring exhibits.
 
 ### Quality
 
@@ -101,25 +101,25 @@ Which phases cover which requirements. Updated during roadmap creation.
 | CONT-03 | Phase 2 | Complete |
 | CONT-04 | Phase 2 | Complete |
 | CONT-05 | Phase 2 | Complete |
-| EXH-01 | Phase 3 | Pending |
-| EXH-02 | Phase 3 | Pending |
-| EXH-03 | Phase 3 | Pending |
-| EXH-04 | Phase 3 | Pending |
-| EXH-05 | Phase 3 | Pending |
-| EXH-06 | Phase 3 | Pending |
-| EXH-07 | Phase 3 | Pending |
-| EXH-08 | Phase 3 | Pending |
-| EXH-09 | Phase 3 | Pending |
-| EXH-10 | Phase 3 | Pending |
-| EXH-11 | Phase 3 | Pending |
-| EXH-12 | Phase 3 | Pending |
-| EXH-13 | Phase 3 | Pending |
-| EXH-14 | Phase 3 | Pending |
-| EXH-15 | Phase 3 | Pending |
-| EXH-16 | Phase 3 | Pending |
-| EXH-17 | Phase 3 | Pending |
-| EXH-18 | Phase 3 | Pending |
-| EXH-19 | Phase 3 | Pending |
+| EXH-01 | Phase 3 | Complete |
+| EXH-02 | Phase 3 | Complete |
+| EXH-03 | Phase 3 | Complete |
+| EXH-04 | Phase 3 | Complete |
+| EXH-05 | Phase 3 | Complete |
+| EXH-06 | Phase 3 | Complete |
+| EXH-07 | Phase 3 | Complete |
+| EXH-08 | Phase 3 | Complete |
+| EXH-09 | Phase 3 | Complete |
+| EXH-10 | Phase 3 | Complete |
+| EXH-11 | Phase 3 | Complete |
+| EXH-12 | Phase 3 | Complete |
+| EXH-13 | Phase 3 | Complete |
+| EXH-14 | Phase 3 | Complete |
+| EXH-15 | Phase 3 | Complete |
+| EXH-16 | Phase 3 | Complete |
+| EXH-17 | Phase 3 | Complete |
+| EXH-18 | Phase 3 | Complete |
+| EXH-19 | Phase 3 | Complete |
 | QUAL-01 | Phase 4 | Pending |
 | QUAL-02 | Phase 4 | Pending |
 | QUAL-03 | Phase 4 | Pending |

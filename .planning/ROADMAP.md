@@ -102,5 +102,5 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4
 |-------|----------------|--------|-----------|
 | 1. Static Site Foundation and Visual System | 3/3 | Complete    | 2026-05-12 |
 | 2. Source Content and Asset Migration | 3/3 | Complete    | 2026-05-12 |
-| 3. Exhibition Pages and Navigation | 3/3 | Complete   | 2026-05-12 |
+| 3. Exhibition Pages and Navigation | 3/3 | Complete    | 2026-05-12 |
 | 4. Verification and Deployment Readiness | 0/2 | Not started | - |
