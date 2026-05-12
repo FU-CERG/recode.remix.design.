@@ -145,11 +145,12 @@ Accent reserved for: header background, footer background, active/primary naviga
 **Required structure:**
 - Dark blue full-width band.
 - Centered max-width 1040px flex layout on desktop, stacked layout under 650px.
-- Copyright/maintainer text pattern:
-  - `Computingeducation © 2026`
-  - `Computingeducation is designed and maintained by Tilman Michaeli & Stefan Seegerer`
+- Copyright text:
+  - `ComputingEducation 2026`
 - Include `Impressum` link.
+- The `Impressum` link must point to `https://computingeducation.de/impressum/`.
 - RSS link may be omitted unless the built site actually provides RSS.
+- Do not include the full Computingeducation maintainer sentence in the gallery footer.
 
 **Visual contract:**
 - Footer text rgba white at 0.7.
