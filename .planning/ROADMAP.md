@@ -33,7 +33,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 Plans:
 **Wave 1**
-- [ ] 01-01: Scaffold Astro static site, scripts, and deployment-friendly config.
+- [x] 01-01: Scaffold Astro static site, scripts, and deployment-friendly config.
 
 **Wave 2** *(blocked on Wave 1 completion)*
 - [ ] 01-02: Implement shared layout, header, footer, and global visual tokens.
@@ -100,7 +100,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Static Site Foundation and Visual System | 0/3 | Not started | - |
+| 1. Static Site Foundation and Visual System | 1/3 | In Progress|  |
 | 2. Source Content and Asset Migration | 0/3 | Not started | - |
 | 3. Exhibition Pages and Navigation | 0/3 | Not started | - |
 | 4. Verification and Deployment Readiness | 0/2 | Not started | - |
