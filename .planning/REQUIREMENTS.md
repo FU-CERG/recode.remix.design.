@@ -7,15 +7,15 @@
 
 ### Foundation
 
-- [ ] **FOUND-01**: Developer can build the website as a static site with no server runtime or CMS dependency.
-- [ ] **FOUND-02**: Site routes and asset paths are compatible with deployment at `https://gallery.computingeducation.de`.
-- [ ] **FOUND-03**: Shared layouts provide a consistent page shell for the start page and all exhibit pages.
+- [x] **FOUND-01**: Developer can build the website as a static site with no server runtime or CMS dependency.
+- [x] **FOUND-02**: Site routes and asset paths are compatible with deployment at `https://gallery.computingeducation.de`.
+- [x] **FOUND-03**: Shared layouts provide a consistent page shell for the start page and all exhibit pages.
 
 ### Visual Identity
 
-- [ ] **VIS-01**: Site uses a Computingeducation-inspired visual system, including dark blue header/footer, light page background, white content surfaces, and system sans typography.
-- [ ] **VIS-02**: Site footer follows the Computingeducation footer pattern with copyright/maintainer text and an Impressum link.
-- [ ] **VIS-03**: Site navigation is compact, responsive, and visually consistent with Computingeducation conventions.
+- [x] **VIS-01**: Site uses a Computingeducation-inspired visual system, including dark blue header/footer, light page background, white content surfaces, and system sans typography.
+- [x] **VIS-02**: Site footer follows the Computingeducation footer pattern with copyright/maintainer text and an Impressum link.
+- [x] **VIS-03**: Site navigation is compact, responsive, and visually consistent with Computingeducation conventions.
 
 ### Content Migration
 
@@ -90,12 +90,12 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| FOUND-01 | Phase 1 | Pending |
-| FOUND-02 | Phase 1 | Pending |
-| FOUND-03 | Phase 1 | Pending |
-| VIS-01 | Phase 1 | Pending |
-| VIS-02 | Phase 1 | Pending |
-| VIS-03 | Phase 1 | Pending |
+| FOUND-01 | Phase 1 | Complete |
+| FOUND-02 | Phase 1 | Complete |
+| FOUND-03 | Phase 1 | Complete |
+| VIS-01 | Phase 1 | Complete |
+| VIS-02 | Phase 1 | Complete |
+| VIS-03 | Phase 1 | Complete |
 | CONT-01 | Phase 2 | Pending |
 | CONT-02 | Phase 2 | Pending |
 | CONT-03 | Phase 2 | Pending |
