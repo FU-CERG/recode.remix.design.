@@ -8,16 +8,25 @@ const cases = [
     path: "/",
     viewport: { width: 1280, height: 900 },
     screenshot: ".planning/artifacts/phase-01/desktop-home.png",
+    text: "Alle Arbeiten",
   },
   {
     path: "/",
     viewport: { width: 390, height: 844 },
     screenshot: ".planning/artifacts/phase-01/mobile-home.png",
+    text: "Alle Arbeiten",
   },
   {
     path: "/exponate/schotter/",
     viewport: { width: 390, height: 844 },
     screenshot: ".planning/artifacts/phase-01/mobile-exhibit.png",
+    text: "Schotter",
+  },
+  {
+    path: "/exponate/punkt-linie-flaeche/",
+    viewport: { width: 390, height: 844 },
+    screenshot: ".planning/artifacts/phase-01/mobile-long-title.png",
+    text: "Punkt.Linie.Flaeche",
   },
 ];
 
@@ -36,6 +45,7 @@ try {
 
     await page.getByText("Recode.Remix.Design").first().waitFor({ state: "visible" });
     await page.getByText("ComputingEducation 2026").waitFor({ state: "visible" });
+    await page.getByText(check.text).first().waitFor({ state: "visible" });
 
     const href = await page.getByRole("link", { name: "Impressum" }).getAttribute("href");
     assert(href === "https://computingeducation.de/impressum/", "Impressum link href mismatch.");
