@@ -209,13 +209,68 @@ p {
   box-shadow: none;
 }
 
+.exhibition-intro .content-body > * + * {
+  margin-top: 10px;
+}
+
+.exhibition-intro .content-body p {
+  max-width: none;
+}
+
 .exhibition-intro .content-body p:first-of-type strong:first-child {
   display: block;
-  max-width: 22ch;
-  margin-bottom: var(--space-md);
+  max-width: 760px;
+  margin-bottom: var(--space-xl);
   color: var(--color-heading);
-  font-size: 30px;
+  font-size: 34px;
   line-height: 1.15;
+}
+
+.exhibition-intro .content-body p:nth-of-type(4),
+.exhibition-intro .content-body p:nth-of-type(6),
+.exhibition-intro .content-body p:nth-of-type(8),
+.exhibition-intro .content-body p:nth-of-type(9),
+.exhibition-intro .content-body p:nth-of-type(11),
+.exhibition-intro .content-body p:nth-of-type(12) {
+  display: none;
+}
+
+.exhibition-intro .content-body p:nth-of-type(3),
+.exhibition-intro .content-body p:nth-of-type(7) {
+  margin-top: var(--space-lg);
+}
+
+.exhibition-intro .content-body p:nth-of-type(7) {
+  clear: both;
+  padding-top: var(--space-md);
+}
+
+.exhibition-intro .content-body p:nth-of-type(5),
+.exhibition-intro .content-body p:nth-of-type(10) {
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  color: var(--color-text);
+  font-size: 16px;
+}
+
+.exhibition-intro .content-body p:nth-of-type(10) {
+  min-height: 142px;
+}
+
+.exhibition-intro .content-body .alignleft {
+  max-width: none;
+  margin: 4px var(--space-lg) var(--space-md) 0;
+}
+
+.exhibition-intro .content-body .alignright {
+  width: min(52vw, 500px);
+  max-width: 56%;
+  margin: 0 0 var(--space-md) var(--space-xl);
+}
+
+.exhibition-intro .content-body a:has(img) {
+  text-decoration: none;
 }
 
 .section-heading {
@@ -567,6 +622,22 @@ p {
 
   .exhibition-intro .content-body p:first-of-type strong:first-child {
     font-size: 24px;
+    margin-bottom: var(--space-lg);
+  }
+
+  .exhibition-intro .content-body p:nth-of-type(5),
+  .exhibition-intro .content-body p:nth-of-type(10) {
+    min-height: 0;
+    display: block;
+  }
+
+  .exhibition-intro .content-body p:nth-of-type(7) {
+    padding-top: 0;
+  }
+
+  .exhibition-intro .content-body .alignright {
+    width: auto;
+    max-width: 100%;
   }
 
   .exhibit-grid {

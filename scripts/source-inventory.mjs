@@ -22,14 +22,12 @@ const expectedTitles = [
   "Kraftlinien",
   "Komputerstrukturen",
   "Farbzentren",
-  "Punkt.Linie.Flaeche",
+  "Punkt.Linie.Fläche",
   "Fraktale",
   "Sinus Addition",
 ];
 
-const titleAliases = new Map([
-  ["Punkt.Linie.Fläche", "Punkt.Linie.Flaeche"],
-]);
+const titleAliases = new Map();
 
 const slugByTitle = new Map([
   ["Schotter", "schotter"],
@@ -46,7 +44,7 @@ const slugByTitle = new Map([
   ["Kraftlinien", "kraftlinien"],
   ["Komputerstrukturen", "komputerstrukturen"],
   ["Farbzentren", "farbzentren"],
-  ["Punkt.Linie.Flaeche", "punkt-linie-flaeche"],
+  ["Punkt.Linie.Fläche", "punkt-linie-flaeche"],
   ["Fraktale", "fraktale"],
   ["Sinus Addition", "sinus-addition"],
 ]);

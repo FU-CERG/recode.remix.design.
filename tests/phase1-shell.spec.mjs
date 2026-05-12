@@ -26,7 +26,7 @@ const cases = [
     path: "/exponate/punkt-linie-flaeche/",
     viewport: { width: 390, height: 844 },
     screenshot: ".planning/artifacts/phase-01/mobile-long-title.png",
-    text: "Punkt.Linie.Flaeche",
+    text: "Punkt.Linie.Fläche",
   },
 ];
 
