@@ -13,7 +13,7 @@ The v1 roadmap builds a static exhibition website from the outside in: first est
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Static Site Foundation and Visual System** - Create the Astro static site foundation and Computingeducation-style layout shell. (completed 2026-05-12)
-- [ ] **Phase 2: Source Content and Asset Migration** - Import the exhibition and exhibit content, copy media locally, and remove runtime source-site media dependencies.
+- [x] **Phase 2: Source Content and Asset Migration** - Import the exhibition and exhibit content, copy media locally, and remove runtime source-site media dependencies. (completed 2026-05-12)
 - [ ] **Phase 3: Exhibition Pages and Navigation** - Build the start page, exhibit grid, 17 exhibit detail pages, and navigation flows.
 - [ ] **Phase 4: Verification and Deployment Readiness** - Verify build output, links, asset independence, responsive rendering, and gallery-domain readiness.
 
@@ -57,7 +57,7 @@ Plans:
 Plans:
 - [x] 02-01: Build source inventory and exhibit metadata map.
 - [x] 02-02: Import/migrate article content and download required local media.
-- [ ] 02-03: Rewrite media references, preserve external learning links, and validate migration completeness.
+- [x] 02-03: Rewrite media references, preserve external learning links, and validate migration completeness.
 
 ### Phase 3: Exhibition Pages and Navigation
 **Goal**: Visitors can browse the full exhibition through the start page and all exhibit detail pages.
@@ -101,6 +101,6 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Static Site Foundation and Visual System | 3/3 | Complete    | 2026-05-12 |
-| 2. Source Content and Asset Migration | 2/3 | In Progress|  |
+| 2. Source Content and Asset Migration | 3/3 | Complete   | 2026-05-12 |
 | 3. Exhibition Pages and Navigation | 0/3 | Not started | - |
 | 4. Verification and Deployment Readiness | 0/2 | Not started | - |
