@@ -107,6 +107,10 @@ p {
   padding-inline: 4vw;
 }
 
+.site-main > .container:has(.exhibition-intro) {
+  max-width: 1744px;
+}
+
 .site-header {
   padding: 12px 4vw;
   color: #ffffff;
@@ -218,12 +222,11 @@ p {
 }
 
 .exhibition-intro .content-body p:first-of-type strong:first-child {
-  display: block;
-  max-width: 760px;
-  margin-bottom: var(--space-xl);
-  color: var(--color-heading);
-  font-size: 30px;
-  line-height: 1.15;
+  display: none;
+}
+
+.exhibition-intro .content-body p:first-of-type br:first-of-type {
+  display: none;
 }
 
 .exhibition-intro .content-body p:nth-of-type(4),
@@ -252,6 +255,11 @@ p {
   align-items: center;
   color: var(--color-text);
   font-size: 16px;
+  white-space: nowrap;
+}
+
+.exhibition-intro .content-body p:nth-of-type(5) {
+  clear: left;
 }
 
 .exhibition-intro .content-body p:nth-of-type(10) {
@@ -621,8 +629,11 @@ p {
   }
 
   .exhibition-intro .content-body p:first-of-type strong:first-child {
-    font-size: 22px;
-    margin-bottom: var(--space-lg);
+    display: none;
+  }
+
+  .exhibition-intro .content-body p:first-of-type br:first-of-type {
+    display: none;
   }
 
   .exhibition-intro .content-body p:nth-of-type(5),
